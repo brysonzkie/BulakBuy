@@ -1,0 +1,58 @@
+
+.btn.btn-primary {
+    background-color: #65A5A5;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Poppins';
+    
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Poppins';
+}
+/* Basic form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins';
+}
+
+.form-control::placeholder {
+    font-size: 12px;
+}
+
+/* Password input styles */
+.password-input-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Eye icon styles */
+.toggle-password i {
+    font-size: 18px;
+    color: #999;
+}
+
+/* Style the eye icon when password is revealed */
+.password-revealed i {
+    color: #33b5e5;
+}
